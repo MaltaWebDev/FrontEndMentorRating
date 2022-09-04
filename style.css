@@ -37,7 +37,7 @@
   border-radius: 20px;
 }
 
-.star-icon {
+.rating-star {
   /* margin-top: 20px; */
   margin-bottom: 30px;
   height: 45px;
@@ -45,13 +45,16 @@
   background-color: var(--med-dark-blue);
   border-radius: 50%;
   text-align: center;
-  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rating-state-title {
   font-size: 28px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-bottom: 15px;
+  font-weight: 700;
 }
 
 .rating-state-text {
@@ -63,7 +66,7 @@
 .rating-buttons {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   padding: 0 20px 0 20px;
 }
 
@@ -73,17 +76,18 @@
   border-radius: 50%;
   background-color: var(--med-dark-blue);
   color: var(--med-grey);
-  align-self: center;
-  text-align: center;
-  padding-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rating-state-btn {
-  color: var(--white);
   background-color: var(--main-orange);
   width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  padding: 15px 0 15px 0;
   border-radius: 30px;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  font-weight: 700;
+  padding: 15px 0 15px 0;
 }

@@ -91,3 +91,10 @@
   font-weight: 700;
   padding: 15px 0 15px 0;
 }
+
+.rating-state-btn:hover,
+.rating-state-btn:active {
+  background: var(--white);
+  color: var(--main-orange);
+  cursor: pointer;
+}

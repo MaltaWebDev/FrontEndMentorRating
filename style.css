@@ -81,6 +81,12 @@
   align-items: center;
 }
 
+.rating:hover,
+.rating:active {
+  background-color: var(--main-orange);
+  color: var(--white);
+}
+
 .rating-state-btn {
   background-color: var(--main-orange);
   width: 100%;

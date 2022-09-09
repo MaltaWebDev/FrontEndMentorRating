@@ -1,1 +1,2 @@
-const rating = document.querySelector('.rating');
+document.getElementsByClassName('.rating-three').styles.backgroundColor('var(--main-orange)');
+

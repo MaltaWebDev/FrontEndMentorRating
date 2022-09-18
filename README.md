@@ -14,8 +14,8 @@ Users can:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MaltaWebDev/FrontEndMentorRating)
-- Live Site URL: [Add live site URL here](https://maltawebdev.github.io/FrontEndMentorRating/)
+- Solution URL: [github.com/MaltaWebDev/FrontEndMentorRating](https://github.com/MaltaWebDev/FrontEndMentorRating)
+- Live Site URL: [maltawebdev.github.io/FrontEndMentorRating/](https://maltawebdev.github.io/FrontEndMentorRating/)
 
 ### Built with
 

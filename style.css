@@ -24,6 +24,7 @@
   min-height: 100vh;
   background-color: var(--very-dark-blue);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -153,7 +154,13 @@
 }
 
 .attribution {
+  display: flex;
   color: var(--light-grey);
+  margin-top: 50px;
+}
+
+.attribution a {
+  text-decoration: none;
 }
 
 .attribution a:link,

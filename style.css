@@ -106,8 +106,7 @@
   padding: 15px 0 15px 0;
 }
 
-.rating-state-btn:hover,
-.rating-state-btn:active {
+.rating-state-btn:hover {
   background: var(--white);
   color: var(--main-orange);
   cursor: pointer;

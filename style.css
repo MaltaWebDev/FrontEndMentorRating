@@ -151,3 +151,17 @@
 .hidden {
   display: none;
 }
+
+.attribution {
+  color: var(--light-grey);
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: var(--white);
+}
+
+.attribution a:hover,
+.attribution a:active {
+  color: var(--main-orange);
+}

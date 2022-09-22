@@ -82,9 +82,6 @@
   color: var(--med-grey);
   font-size: 1rem;
   font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .rating-btn:focus {

@@ -16,13 +16,17 @@
   --very-dark-blue: hsl(216, 12%, 8%);
 }
 
-.rating-state {
+#main {
   font-family: "Overpass", sans-serif;
   font-size: 15px;
+  background-color: var(--very-dark-blue);
+  min-height: 100vh;
+}
+
+.main-card {
   height: 100%;
   width: 100%;
-  min-height: 100vh;
-  background-color: var(--very-dark-blue);
+  padding-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,17 +34,14 @@
 }
 
 .rating-state-card {
-  color: var(--white);
   background-color: var(--dark-blue);
   max-width: 412px;
-  height: 416px;
-  margin-top: 35px;
+  max-height: 416px;
   padding: 30px;
   border-radius: 20px;
 }
 
 .rating-star {
-  /* margin-top: 20px; */
   margin-bottom: 30px;
   height: 45px;
   width: 45px;
@@ -53,6 +54,7 @@
 }
 
 .rating-state-title {
+  color: var(--white);
   font-size: 28px;
   letter-spacing: 0.5px;
   margin-bottom: 15px;
@@ -115,11 +117,12 @@
   cursor: pointer;
 }
 
+/* -------THANK YOU STATE------- */
 .thank-you-state-card {
   color: var(--white);
   background-color: var(--dark-blue);
-  width: 412px;
-  height: 416px;
+  max-width: 412px;
+  max-height: 416px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -151,14 +154,11 @@
   margin: 0 20px 0 20px;
 }
 
-.hidden {
-  display: none;
-}
-
+/* -------ATTRIBUTION------- */
 .attribution {
-  display: flex;
   color: var(--light-grey);
   margin-top: 50px;
+  text-align: center;
 }
 
 .attribution a {
@@ -174,4 +174,8 @@
 .attribution a:hover,
 .attribution a:active {
   color: var(--main-orange);
+}
+
+.hidden {
+  display: none;
 }

@@ -8,10 +8,9 @@
 
 :root {
   --white: hsl(0, 0%, 100%);
-  --main-orange: hsl(25, 97%, 53%);
+  --orange: hsl(25, 97%, 53%);
   --light-grey: hsl(217, 12%, 63%);
   --med-grey: hsl(216, 12%, 54%);
-  --med-dark-blue: hsl(213, 24%, 24%);
   --dark-blue: hsl(213, 19%, 18%);
   --very-dark-blue: hsl(216, 12%, 8%);
 }
@@ -50,7 +49,7 @@
   margin: 2.5px 0 35px 2.5px;
   height: 45px;
   width: 45px;
-  background-color: var(--med-dark-blue);
+  background-color: var(--dark-blue);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -83,14 +82,14 @@
   width: 50px;
   border-radius: 50%;
   border: none;
-  background-color: var(--med-dark-blue);
+  background-color: var(--dark-blue);
   color: var(--med-grey);
   font-size: 1rem;
   font-weight: 700;
 }
 
 .rating-btn:focus {
-  background-color: var(--main-orange);
+  background-color: var(--orange);
   color: var(--white);
   cursor: pointer;
 }
@@ -102,7 +101,7 @@
 }
 
 .submit-btn {
-  background-color: var(--main-orange);
+  background-color: var(--orange);
   width: 100%;
   border-radius: 30px;
   color: var(--white);
@@ -115,14 +114,18 @@
 
 .submit-btn:hover {
   background: var(--white);
-  color: var(--main-orange);
+  color: var(--orange);
   cursor: pointer;
 }
 
 /* -------THANK YOU STATE------- */
 .thank-you-state-card {
   color: var(--white);
-  background-color: var(--card-bg-blue);
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
   max-width: 412px;
   max-height: 416px;
   border-radius: 15px;
@@ -136,8 +139,8 @@
 }
 
 .rating-score {
-  background-color: var(--med-dark-blue);
-  color: var(--main-orange);
+  background-color: var(--dark-blue);
+  color: var(--orange);
   padding: 8px 20px 8px 20px;
   border-radius: 2rem;
   margin-bottom: 30px;
@@ -174,7 +177,7 @@
 
 .attribution a:hover,
 .attribution a:active {
-  color: var(--main-orange);
+  color: var(--orange);
 }
 
 .hidden {

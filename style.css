@@ -42,7 +42,7 @@
 }
 
 .rating-star {
-  margin: 5px 0 30px 5px;
+  margin: 2.5px 0 30px 2.5px;
   height: 45px;
   width: 45px;
   background-color: var(--med-dark-blue);

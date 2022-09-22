@@ -42,12 +42,12 @@
 }
 
 .rating-star {
-  margin-bottom: 30px;
+  margin: 5px 0 30px 5px;
   height: 45px;
   width: 45px;
   background-color: var(--med-dark-blue);
   border-radius: 50%;
-  text-align: center;
+  /* text-align: center; */
   display: flex;
   justify-content: center;
   align-items: center;

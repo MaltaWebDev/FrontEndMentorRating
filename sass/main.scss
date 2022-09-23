@@ -18,6 +18,7 @@ $very-dark-blue: hsl(216, 12%, 8%);
   font-size: 15px;
   background-color: $very-dark-blue;
   min-height: 100vh;
+  caret-color: transparent;
 }
 
 .main-card {
@@ -171,16 +172,17 @@ $very-dark-blue: hsl(216, 12%, 8%);
 
     &:link,
     &:visited {
-      color: $white;
+      color: $orange;
     }
 
     &:hover,
     &:active {
-      color: $orange;
+      color: $white;
     }
   }
 }
 
+/* -------UTILITY CLASS------- */
 .hidden {
   display: none;
 }

@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$white: hsl(0, 0%, 100%);
+$orange: hsl(25, 97%, 53%);
+$light-grey: hsl(217, 12%, 63%);
+$med-grey: hsl(216, 12%, 54%);
+$dark-blue: hsl(213, 19%, 18%);
+$very-dark-blue: hsl(216, 12%, 8%);
+
+#main {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background-color: $very-dark-blue;
+  min-height: 100vh;
+}
+
+.main-card {
+  height: 100%;
+  width: 100%;
+  padding-top: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-state-card {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 15px;
+  max-width: 412px;
+  max-height: 416px;
+  padding: 30px;
+  border-radius: 2rem;
+}
+
+.rating-star {
+  margin: 2.5px 0 35px 2.5px;
+  height: 45px;
+  width: 45px;
+  background-color: $dark-blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-state-title {
+  color: $white;
+  font-size: 28px;
+  letter-spacing: 0.4px;
+  margin-bottom: 9px;
+  font-weight: 700;
+}
+
+.rating-state-text {
+  color: $light-grey;
+  margin-bottom: 27px;
+  line-height: 1.5rem;
+}
+
+.rating-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+  flex-wrap: wrap;
+}
+
+.rating-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: $dark-blue;
+  color: $med-grey;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.rating-btn:focus {
+  background-color: $orange;
+  color: $white;
+  cursor: pointer;
+}
+
+.rating-btn:hover {
+  background-color: $light-grey;
+  color: $white;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: $orange;
+  width: 100%;
+  border-radius: 30px;
+  color: $white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+  padding: 14px 0 14px 0;
+  border: none;
+}
+
+.submit-btn:hover {
+  background: $white;
+  color: $orange;
+  cursor: pointer;
+}
+
+/* -------THANK YOU STATE------- */
+.thank-you-state-card {
+  color: $white;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  max-width: 412px;
+  max-height: 416px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.thank-you-image {
+  margin: 50px 0 25px 0;
+}
+
+.rating-score {
+  background-color: $dark-blue;
+  color: $orange;
+  padding: 8px 20px 8px 20px;
+  border-radius: 2rem;
+  margin-bottom: 30px;
+}
+
+.thank-you-title {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.thank-you-text {
+  color: $light-grey;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  padding: 0 13px 40px 13px;
+}
+
+/* -------ATTRIBUTION------- */
+.attribution {
+  color: $light-grey;
+  margin-top: 50px;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+      color: $white;
+    }
+
+    &:hover,
+    &:active {
+      color: $orange;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}

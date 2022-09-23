@@ -88,13 +88,13 @@
   font-weight: 400;
 }
 
-.rating-btn:focus {
+.rating-btn:hover {
   background-color: var(--orange);
   color: var(--white);
   cursor: pointer;
 }
 
-.rating-btn:hover {
+.rating-btn:focus {
   background-color: var(--light-grey);
   color: var(--white);
   cursor: pointer;

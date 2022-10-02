@@ -69,14 +69,14 @@ $very-dark-blue: hsl(216, 12%, 8%);
   line-height: 1.5rem;
 }
 
-.rating-btn-wrapper {
+.rating-form {
   display: flex;
   justify-content: space-between;
   margin-bottom: 34px;
   flex-wrap: wrap;
 }
 
-.rating-btn {
+.radio-btn {
   height: 50px;
   width: 50px;
   border-radius: 50%;

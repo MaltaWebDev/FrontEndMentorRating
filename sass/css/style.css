@@ -1,22 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-$white: hsl(0, 0%, 100%);
-$orange: hsl(25, 97%, 53%);
-$light-grey: hsl(217, 12%, 63%);
-$med-grey: hsl(216, 12%, 54%);
-$dark-blue: hsl(213, 19%, 18%);
-$very-dark-blue: hsl(216, 12%, 8%);
-
 #main {
   font-family: "Overpass", sans-serif;
   font-size: 15px;
-  background-color: $very-dark-blue;
+  background-color: hsl(216deg, 12%, 8%);
   min-height: 100vh;
   caret-color: transparent;
 }
@@ -48,7 +40,7 @@ $very-dark-blue: hsl(216, 12%, 8%);
   margin: 2.5px 0 35px 2.5px;
   height: 45px;
   width: 45px;
-  background-color: $dark-blue;
+  background-color: hsl(213deg, 19%, 18%);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -56,7 +48,7 @@ $very-dark-blue: hsl(216, 12%, 8%);
 }
 
 .rating-state-title {
-  color: $white;
+  color: hsl(0deg, 0%, 100%);
   font-size: 28px;
   letter-spacing: 0.4px;
   margin-bottom: 9px;
@@ -64,7 +56,7 @@ $very-dark-blue: hsl(216, 12%, 8%);
 }
 
 .rating-state-text {
-  color: $light-grey;
+  color: hsl(217deg, 12%, 63%);
   margin-bottom: 27px;
   line-height: 1.5rem;
 }
@@ -81,29 +73,29 @@ $very-dark-blue: hsl(216, 12%, 8%);
   width: 50px;
   border-radius: 50%;
   border: none;
-  background-color: $dark-blue;
-  color: $med-grey;
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(216deg, 12%, 54%);
   font-size: 1rem;
   font-weight: 400;
 }
 
 .rating-btn:focus {
-  background-color: $orange;
-  color: $white;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
   cursor: pointer;
 }
 
 .rating-btn:hover {
-  background-color: $light-grey;
-  color: $white;
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
   cursor: pointer;
 }
 
 .submit-btn {
-  background-color: $orange;
+  background-color: hsl(25deg, 97%, 53%);
   width: 100%;
   border-radius: 30px;
-  color: $white;
+  color: hsl(0deg, 0%, 100%);
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.15rem;
@@ -113,26 +105,20 @@ $very-dark-blue: hsl(216, 12%, 8%);
 }
 
 .submit-btn:hover {
-  background: $white;
-  color: $orange;
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
   cursor: pointer;
 }
 
 /* -------THANK YOU STATE------- */
 .thank-you-container {
-  min-height: 100%;
-  min-width: 100%;
+  height: 100vh;
   display: grid;
   place-items: center;
 }
 
-// .thank-you-state-card {
-//   display: grid;
-//   place-items: center;
-// }
-
 .thank-you-state-card {
-  color: $white;
+  color: hsl(0deg, 0%, 100%);
   background: radial-gradient(
     98.96% 98.96% at 50% 0%,
     #232a34 0%,
@@ -152,8 +138,8 @@ $very-dark-blue: hsl(216, 12%, 8%);
 }
 
 .rating-score {
-  background-color: $dark-blue;
-  color: $orange;
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(25deg, 97%, 53%);
   padding: 8px 20px 8px 20px;
   border-radius: 2rem;
   margin-bottom: 30px;
@@ -167,7 +153,7 @@ $very-dark-blue: hsl(216, 12%, 8%);
 }
 
 .thank-you-text {
-  color: $light-grey;
+  color: hsl(217deg, 12%, 63%);
   text-align: center;
   margin: 0 20px 0 20px;
   padding: 0 13px 40px 13px;
@@ -175,26 +161,25 @@ $very-dark-blue: hsl(216, 12%, 8%);
 
 /* -------ATTRIBUTION------- */
 .attribution {
-  color: $light-grey;
+  color: hsl(217deg, 12%, 63%);
   margin-top: 50px;
   text-align: center;
-
-  a {
-    text-decoration: none;
-
-    &:link,
-    &:visited {
-      color: $orange;
-    }
-
-    &:hover,
-    &:active {
-      color: $white;
-    }
-  }
+}
+.attribution a {
+  text-decoration: none;
+}
+.attribution a:link,
+.attribution a:visited {
+  color: hsl(25deg, 97%, 53%);
+}
+.attribution a:hover,
+.attribution a:active {
+  color: hsl(0deg, 0%, 100%);
 }
 
 /* -------UTILITY CLASS------- */
 .hidden {
   display: none;
 }
+
+/*# sourceMappingURL=style.css.map */

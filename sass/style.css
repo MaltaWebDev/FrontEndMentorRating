@@ -58,7 +58,6 @@
 .rating-form {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-bottom: 34px;
 }
 
 .radio-btn {

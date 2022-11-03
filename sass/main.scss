@@ -21,15 +21,24 @@ $very-dark-blue: hsl(216, 12%, 8%);
   caret-color: transparent;
 }
 
+input[type="radio"] {
+  display: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .main-card {
   height: 100%;
   width: 100%;
   padding-top: 195px;
   display: grid;
   place-items: center;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
+}
+
+.main-card-thank-you {
+  padding-top: 0;
 }
 
 .rating-state-card {
@@ -51,9 +60,8 @@ $very-dark-blue: hsl(216, 12%, 8%);
   width: 45px;
   background-color: $dark-blue;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .rating-state-title {
@@ -76,6 +84,10 @@ $very-dark-blue: hsl(216, 12%, 8%);
 }
 
 .radio-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -84,15 +96,16 @@ $very-dark-blue: hsl(216, 12%, 8%);
   color: $med-grey;
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
-.rating-btn:focus {
+.radio-btn:focus {
   background-color: $orange;
   color: $white;
   cursor: pointer;
 }
 
-.rating-btn:hover {
+.radio-btn:hover {
   background-color: $light-grey;
   color: $white;
   cursor: pointer;

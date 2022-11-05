@@ -21,6 +21,10 @@ input[type=radio] {
   cursor: pointer;
 }
 
+label {
+  cursor: pointer;
+}
+
 .main-card {
   height: 100%;
   width: 100%;
@@ -75,7 +79,6 @@ input[type=radio] {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   height: 50px;
   width: 50px;
   border-radius: 50%;

@@ -36,7 +36,7 @@ label {
 .main-card {
   height: 100%;
   width: 100%;
-  padding-top: 195px;
+  padding-top: 280px;
   display: grid;
   place-items: center;
 }
@@ -91,7 +91,6 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  // cursor: pointer;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -141,11 +140,6 @@ label {
   display: grid;
   place-items: center;
 }
-
-// .thank-you-state-card {
-//   display: grid;
-//   place-items: center;
-// }
 
 .thank-you-state-card {
   color: $white;

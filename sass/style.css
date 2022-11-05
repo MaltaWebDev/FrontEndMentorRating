@@ -28,7 +28,7 @@ label {
 .main-card {
   height: 100%;
   width: 100%;
-  padding-top: 195px;
+  padding-top: 280px;
   display: grid;
   place-items: center;
 }

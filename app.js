@@ -2,7 +2,7 @@
 
 // get rating 1-5 from form, log it and return it
 function getRating() {
-  const formValue = document.querySelector(".rating-form").rating;
+  const formValue = document.querySelector(".rating-form").value;
   console.log(`Rating submitted: ${formValue}`);
   return formValue;
 }

@@ -12,6 +12,7 @@ $light-grey: hsl(217, 12%, 63%);
 $med-grey: hsl(216, 12%, 54%);
 $dark-blue: hsl(213, 19%, 18%);
 $very-dark-blue: hsl(216, 12%, 8%);
+$background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
 
 #main {
   font-family: "Overpass", sans-serif;
@@ -69,11 +70,7 @@ input:checked + label {
 }
 
 .rating-state-card {
-  background: radial-gradient(
-    98.96% 98.96% at 50% 0%,
-    #232a34 0%,
-    #181e27 100%
-  );
+  background: $background;
   border-radius: 15px;
   max-width: 412px;
   max-height: 416px;
@@ -110,27 +107,6 @@ input:checked + label {
   grid-template-columns: repeat(5, 1fr);
 }
 
-// .radio-btn {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 50px;
-//   width: 50px;
-//   border-radius: 50%;
-//   border: none;
-//   background-color: $dark-blue;
-//   color: $med-grey;
-//   font-size: 1rem;
-//   font-weight: 400;
-//   margin-bottom: 20px;
-//   cursor: pointer;
-// }
-
-// .radio-btn:hover {
-//   background-color: $light-grey;
-//   color: $white;
-// }
-
 .submit-btn {
   background-color: $orange;
   width: 100%;
@@ -160,11 +136,7 @@ input:checked + label {
 
 .thank-you-state-card {
   color: $white;
-  background: radial-gradient(
-    98.96% 98.96% at 50% 0%,
-    #232a34 0%,
-    #181e27 100%
-  );
+  background: $background;
   max-width: 412px;
   max-height: 416px;
   border-radius: 15px;

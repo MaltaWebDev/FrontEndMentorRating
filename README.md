@@ -20,11 +20,11 @@ Users can:
 
 ### Built with
 
-- Semantic HTML5 form with 5x radio buttons
-- Form fires results.html on submission
-- CSS preprocessed with SASS
-- Flexbox and Grid
-- Javascript event listener on form submission to update rating
+- Semantic HTML5 form with 5x radio buttons.
+- Form fires results.html on submission.
+- CSS preprocessed with SASS.
+- Flexbox and Grid.
+- Javascript event listener on form submission to update rating.
 
 ### Screenshots
 

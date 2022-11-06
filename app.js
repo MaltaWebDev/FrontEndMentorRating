@@ -15,9 +15,9 @@ function insertRating(rating) {
 }
 
 // add event listener to submit button which calls both functions
-const submitBtn = document.getElementsByClassName(".submit-btn");
+const formSubmit = document.getElementsByClassName(".rating-form");
 
-submitBtn.addEventListener("click", (e) => {
+formSubmit.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log(e);
   const rating = getRating();

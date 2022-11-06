@@ -100,18 +100,17 @@ label {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
-.radio-btn:focus {
+.radio-btn:active {
   background-color: $orange;
   color: $white;
-  cursor: pointer;
 }
 
 .radio-btn:hover {
   background-color: $light-grey;
   color: $white;
-  cursor: pointer;
 }
 
 .submit-btn {

@@ -29,6 +29,11 @@ input[type="radio"] {
   cursor: pointer;
 }
 
+input [type="radio"]:checked {
+  background-color: $orange;
+  color: $white;
+}
+
 label {
   cursor: pointer;
 }
@@ -105,11 +110,6 @@ label {
 
 .radio-btn:hover {
   background-color: $light-grey;
-  color: $white;
-}
-
-.radio-btn:checked {
-  background-color: $orange;
   color: $white;
 }
 

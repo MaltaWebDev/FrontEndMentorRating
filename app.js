@@ -2,14 +2,14 @@
 
 // get rating 1-5 from form, log it and return it
 function getRating() {
-  const formValue = document.getElementsByClassName(".rating-form").rating;
+  const formValue = document.querySelector(".rating-form").rating;
   console.log(`Rating submitted: ${formValue}`);
   return formValue;
 }
 
 // insert rating into inner text of elemtent with class .score
 function insertRating(rating) {
-  const score = document.getElementsByClassName(".score");
+  const score = document.querySelector(".score");
   score.outerText = rating;
   console.log(`Rating inserted: ${rating}`);
 }

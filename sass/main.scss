@@ -29,13 +29,31 @@ input[type="radio"] {
   cursor: pointer;
 }
 
-input [type="radio"]:checked {
-  background-color: $orange;
+input + label {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: $dark-blue;
+  color: $med-grey;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+input + label:hover {
+  background-color: $light-grey;
   color: $white;
 }
 
-label {
-  cursor: pointer;
+input:checked + label {
+  background-color: $orange;
+  color: $white;
 }
 
 .main-card {
@@ -92,26 +110,26 @@ label {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.radio-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: none;
-  background-color: $dark-blue;
-  color: $med-grey;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
+// .radio-btn {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 50px;
+//   width: 50px;
+//   border-radius: 50%;
+//   border: none;
+//   background-color: $dark-blue;
+//   color: $med-grey;
+//   font-size: 1rem;
+//   font-weight: 400;
+//   margin-bottom: 20px;
+//   cursor: pointer;
+// }
 
-.radio-btn:hover {
-  background-color: $light-grey;
-  color: $white;
-}
+// .radio-btn:hover {
+//   background-color: $light-grey;
+//   color: $white;
+// }
 
 .submit-btn {
   background-color: $orange;

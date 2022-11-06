@@ -18,7 +18,7 @@ function insertRating(rating) {
 const formSubmit = document.getElementsByClassName(".rating-form");
 
 formSubmit.addEventListener("submit", (e) => {
-  e.preventDefault();
+  // e.preventDefault();
   console.log(e);
   const rating = getRating();
   insertRating(rating);

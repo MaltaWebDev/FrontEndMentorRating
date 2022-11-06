@@ -16,4 +16,3 @@
 .prettierignore
 index-live-server.html
 /node_modules
-styles.css

@@ -10,13 +10,16 @@ function getRating() {
 // insert rating into inner text of elemtent with class .score
 function insertRating(rating) {
   const score = document.getElementsByClassName(".score");
-  score.innerText = rating;
+  score.outerText = rating;
   console.log(`Rating inserted: ${rating}`);
 }
 
 // add event listener to submit button which calls both functions
 const submitBtn = document.getElementsByClassName(".submit-btn");
-const clickedSubmit = addEventListener("click", submitBtn, () => {
+
+submitBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  console.log(e);
   const rating = getRating();
   insertRating(rating);
 });

@@ -28,6 +28,18 @@ Users can:
 
 ### Screenshots
 
-![](./images/screenshot1.jpg)
+#### Normal state
 
-![](./images/screenshot2.jpg)
+![](./ss/rating-state.png)
+
+#### Hover state
+
+![](./ss/hover-state.png)
+
+#### Hover state
+
+![](./ss/hover-state.png)
+
+#### Submit button hover state
+
+![](./ss/submit-hover.png)

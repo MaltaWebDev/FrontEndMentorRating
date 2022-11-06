@@ -1,24 +1,23 @@
 "usestrict";
 
-// get rating 1-5 from form, log it and return it
+// get the rating 1-5
 function getRating() {
-  const formValue = document.querySelector(".rating-form").value;
-  console.log(`Rating submitted: ${formValue}`);
-  return formValue;
+  // convert the form to formData
+  const formData = new FormData(document.querySelector("rating-form"));
+  const rating = formData.get("rating");
+  return rating;
 }
 
-// insert rating into inner text of elemtent with class .score
+// insert rating into outer text of elemtent with class .score
 function insertRating(rating) {
   const score = document.querySelector(".score");
   score.outerText = rating;
   console.log(`Rating inserted: ${rating}`);
 }
 
-// add event listener to submit button which calls both functions
+// add event listener to submit event of form which then calls both functions
 const formSubmit = document.querySelector(".rating-form");
-
 formSubmit.addEventListener("submit", (e) => {
-  // e.preventDefault();
   console.log(e);
   const rating = getRating();
   insertRating(rating);

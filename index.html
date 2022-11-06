@@ -8,24 +8,23 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/FrontEndMentorRating/images/favicon-32x32.png"
+      href="/images/favicon-32x32.png"
     />
 
     <title>Interactive rating component | MaltaWebDev</title>
 
-    <link rel="stylesheet" href="/FrontEndMentorRating/sass/css/style.css" />
-
-    <script defer src="/FrontEndMentorRating/app.js"></script>
+    <link rel="stylesheet" href="/sass/style.css" />
+    <script defer src="/app.js"></script>
   </head>
 
   <body>
     <main id="main">
       <section class="main-card">
-        <!------- RATING STATE ------->
+        <!-- Rating state start -->
         <div class="rating-state-card">
           <div class="rating-star">
             <img
-              src="/FrontEndMentorRating/images/icon-star.svg"
+              src="/images/icon-star.svg"
               alt="small orange star icon"
               class="rating-star-icon"
             />
@@ -36,70 +35,46 @@
             feedback is appreciated to help us improve our offering!
           </div>
 
-          <div class="radio-btn">
-            <label for="1">1</label>
-            <input type="radio" name="rating" id="1" value="1" />
-          </div>
+          <div>
+            <div>
+              <form  class="rating-form" action="result.html" method="GET">
+                <div class="radio-btn radio-btn-1">
+                  <label for="1">1</label>
+                  <input type="radio" name="rating" id="1" value="1" />
+                </div>
 
-          <div class="radio-btn">
-            <label for="2">2</label>
-            <input type="radio" name="rating" id="2" value="2" />
-          </div>
+                <div class="radio-btn radio-btn-2">
+                  <label for="2">2</label>
+                  <input type="radio" name="rating" id="2" value="2" />
+                </div>
 
-          <div class="radio-btn">
-            <label for="3">3</label>
-            <input type="radio" name="rating" id="3" value="3" />
-          </div>
+                <div class="radio-btn radio-btn-3">
+                  <label for="3">3</label>
+                  <input type="radio" name="rating" id="3" value="3" />
+                </div>
 
-          <div class="radio-btn">
-            <label for="4">4</label>
-            <input type="radio" name="rating" id="4" value="4" />
-          </div>
+                <div class="radio-btn radio-btn-4">
+                  <label for="4">4</label>
+                  <input type="radio" name="rating" id="4" value="4" />
+                </div>
 
-          <div class="radio-btn">
-            <label for="5">5</label>
-            <input type="radio" name="rating" id="5" value="5" />
-          </div>
+                <div class="radio-btn radio-btn-5">
+                  <label for="5">5</label>
+                  <input type="radio" name="rating" id="5" value="5" />
+                </div>
+              </div>
 
-          <!-- <div class="rating-btn-wrapper">
-            <button class="rating-btn">1</button>
-            <button class="rating-btn">2</button>
-            <button class="rating-btn">3</button>
-            <button class="rating-btn">4</button>
-            <button class="rating-btn">5</button>
-          </div>
-          <div class="submit-btn-wrapper">
-            <button class="submit-btn">Submit</button>
-          </div>
-        </div> -->
+              <div>
+                <button class="submit-btn" type="submit">SUBMIT</button>
+              </div>
+              
+            </form>
 
-        <!------- THANK-YOU STATE ------->
-        <div class="thank-you-state-card hidden">
-          <div class="thank-you-image">
-            <img
-              src="/images/illustration-thank-you.svg"
-              alt="thank you image"
-            />
-          </div>
-
-          <div class="rating-score">
-            <p>You selected <span class="score">3</span> out of 5</p>
-          </div>
-
-          <div class="thank-you-title">
-            <h1>Thank you!</h1>
-          </div>
-
-          <div class="thank-you-text">
-            <p>
-              We appreciate you taking the time to give a rating.<br />If you
-              ever need more support, don’t hesitate to get in touch!
-            </p>
           </div>
         </div>
+        
       </section>
 
-      <!------- ATTRIBUTION ------->
       <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">

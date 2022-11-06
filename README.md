@@ -36,9 +36,9 @@ Users can:
 
 ![](./ss/hover-state.png)
 
-#### Hover state
+#### Checked state
 
-![](./ss/hover-state.png)
+![](./ss/checked-state.png)
 
 #### Submit button hover state
 

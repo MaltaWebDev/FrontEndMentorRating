@@ -103,13 +103,13 @@ label {
   cursor: pointer;
 }
 
-.radio-btn:active {
-  background-color: $orange;
+.radio-btn:hover {
+  background-color: $light-grey;
   color: $white;
 }
 
-.radio-btn:hover {
-  background-color: $light-grey;
+.radio-btn:checked {
+  background-color: $orange;
   color: $white;
 }
 

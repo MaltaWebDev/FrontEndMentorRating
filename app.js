@@ -6,12 +6,13 @@ const score = document.querySelector(".score");
 console.log(score);
 
 function updateScore(rating) {
-  score.textContent = rating;
+  console.log(`Rating passed to updateScore function: ${rating}`);
+  score.innerHTML = rating;
 }
 
 form.addEventListener("submit", (e) => {
-  // e.preventDefault();
+  e.preventDefault();
   const rating = form.rating.value;
-  console.log(rating);
+  console.log(`Rating from form: ${rating}`);
   updateScore(rating);
 });

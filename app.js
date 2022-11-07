@@ -6,7 +6,7 @@ function getRating() {
   const form = document.querySelector("rating-form");
   const formData = new FormData(form);
   const rating = formData.get("rating");
-  console.log(rating);
+  console.log(`Rating captured: ${rating}`);
   return rating;
 }
 

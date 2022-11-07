@@ -43,3 +43,7 @@ Users can:
 #### Submit button hover state
 
 ![](./ss/submit-hover.png)
+
+#### Form firing, capturing and displaying rating
+
+![](./ss/)

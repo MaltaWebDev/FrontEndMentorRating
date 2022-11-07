@@ -3,7 +3,8 @@
 // get the rating 1-5
 function getRating() {
   // convert the form to formData
-  const formData = new FormData(document.querySelector("rating-form"));
+  const form = document.querySelector("rating-form");
+  const formData = new FormData(form);
   const rating = formData.get("rating");
   console.log(rating);
   return rating;

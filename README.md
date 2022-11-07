@@ -18,13 +18,13 @@ Users can:
 - Solution URL: [github.com/maltawebdev/ratingcard](https://github.com/maltawebdev/RatingCard)
 - Live Site URL: [maltawebdev.github.io/RatingCard/](https://maltawebdev.github.io/RatingCard/)
 
-### Built with
+### My solution
 
 - Semantic HTML5 form with 5x radio buttons.
-- Form fires results.html on submission.
+- Form fires a GET request and dispalys results.html on submit.
 - CSS preprocessed with SASS.
 - Flexbox and Grid.
-- Javascript event listener on form submission to update rating.
+- Small amount of JS on result page to read and display rating.
 
 ### Screenshots
 
@@ -46,4 +46,4 @@ Users can:
 
 #### Form firing, capturing and displaying rating
 
-![](./ss/)
+![](./ss/thank-you.png)

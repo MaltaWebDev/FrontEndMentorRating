@@ -48,6 +48,11 @@ input:checked + label {
   color: hsl(0deg, 0%, 100%);
 }
 
+input + label {
+  display: grid;
+  place-items: center;
+}
+
 .main-card {
   height: 100%;
   width: 100%;

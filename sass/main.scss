@@ -57,6 +57,12 @@ input:checked + label {
   color: $white;
 }
 
+// target input + label selector and centre grid items
+input + label {
+  display: grid;
+  place-items: center;
+}
+
 .main-card {
   height: 100%;
   width: 100%;

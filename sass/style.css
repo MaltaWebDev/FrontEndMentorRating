@@ -32,6 +32,7 @@ input + label {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 input + label:hover {
@@ -92,7 +93,6 @@ input:checked + label {
 .rating-form {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  align-items: center;
 }
 
 .submit-btn-wrapper {

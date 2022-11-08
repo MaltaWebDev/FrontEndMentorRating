@@ -14,26 +14,26 @@
 }
 
 input[type=radio] {
-  display: none;
-  height: 60px;
-  width: 60px;
   border-radius: 50%;
+  height: 50px;
+  width: 50px;
   cursor: pointer;
+  display: none;
 }
 
 input + label {
-  cursor: pointer;
+  border-radius: 50%;
   height: 50px;
   width: 50px;
-  border-radius: 50%;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
   border: none;
   background-color: hsl(213deg, 19%, 18%);
   color: hsl(216deg, 12%, 54%);
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 20px;
-  display: grid;
-  place-items: center;
 }
 
 input + label:hover {
@@ -47,11 +47,11 @@ input:checked + label {
 }
 
 .main-card {
+  display: grid;
+  place-items: center;
   height: 100%;
   width: 100%;
   padding-top: 280px;
-  display: grid;
-  place-items: center;
 }
 
 .main-card-thank-you {
@@ -68,13 +68,13 @@ input:checked + label {
 }
 
 .rating-star {
+  display: grid;
+  place-items: center;
   margin: 2.5px 0 35px 2.5px;
   height: 45px;
   width: 45px;
   background-color: hsl(213deg, 19%, 18%);
   border-radius: 50%;
-  display: grid;
-  place-items: center;
 }
 
 .rating-state-title {
@@ -97,10 +97,6 @@ input:checked + label {
   justify-items: center;
 }
 
-.submit-btn-wrapper {
-  grid-column: 1/-1;
-}
-
 .submit-btn {
   background-color: hsl(25deg, 97%, 53%);
   width: 100%;
@@ -112,7 +108,6 @@ input:checked + label {
   font-weight: 700;
   padding: 14px 0 14px 0;
   border: none;
-  grid-column: 1/-1;
 }
 
 .submit-btn:hover {
@@ -123,10 +118,10 @@ input:checked + label {
 
 /* -------THANK YOU STATE------- */
 .thank-you-container {
-  min-height: 100%;
-  min-width: 100%;
   display: grid;
   place-items: center;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 .thank-you-state-card {
@@ -181,11 +176,6 @@ input:checked + label {
 }
 .attribution a:hover, .attribution a:active {
   color: hsl(0deg, 0%, 100%);
-}
-
-/* -------UTILITY CLASS------- */
-.hidden {
-  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

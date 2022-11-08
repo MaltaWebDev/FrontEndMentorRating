@@ -50,7 +50,9 @@
               <input type="radio" name="rating" id="5" value="5" />
               <label for="5">5</label>
 
-              <button class="submit-btn" type="submit">SUBMIT</button>
+              <div class="submit-btn-wrapper">
+                <button class="submit-btn" type="submit">SUBMIT</button>
+              </div>
             </form>
           </div>
         </div>
@@ -65,4 +67,17 @@
     </main>
   </body>
 </html>
-/RatingCard
+
+There are two appropriate ways to layout radio buttons in HTML. The first wraps
+the input within the label. This implicitly associates the label with the input
+that its labeling, and also increases the hit area to select the radio.
+
+<label>
+  <input type="radio" name="radio" />
+  Radio label text
+</label>
+The second is to have the input and label be siblings and use the for attribute
+set to the value of the radio's id to create the association.
+
+<input type="radio" name="radio" id="radio1" />
+<label for="radio1">Radio label text</label>

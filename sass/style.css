@@ -98,6 +98,10 @@ input:checked + label {
   grid-template-columns: repeat(5, 1fr);
 }
 
+.submit-btn-wrapper {
+  grid-column: 1/-1;
+}
+
 .submit-btn {
   background-color: hsl(25deg, 97%, 53%);
   width: 100%;

@@ -48,11 +48,6 @@ input:checked + label {
   color: hsl(0deg, 0%, 100%);
 }
 
-input + label {
-  display: grid;
-  align-items: center;
-}
-
 .main-card {
   height: 100%;
   width: 100%;
@@ -101,6 +96,7 @@ input + label {
 .rating-form {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  align-items: center;
 }
 
 .submit-btn-wrapper {

@@ -60,7 +60,7 @@ input:checked + label {
 // target input + label selector and centre grid items
 input + label {
   display: grid;
-  place-items: center;
+  align-items: center;
 }
 
 .main-card {

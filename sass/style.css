@@ -50,7 +50,7 @@ input:checked + label {
 
 input + label {
   display: grid;
-  place-items: center;
+  align-items: center;
 }
 
 .main-card {

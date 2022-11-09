@@ -46,6 +46,19 @@ input:checked + label {
   color: hsl(0deg, 0%, 100%);
 }
 
+input[type=submit] {
+  background-color: hsl(25deg, 97%, 53%);
+  border-radius: 30px;
+  border: none;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 700;
+  grid-column: 1/-1;
+  letter-spacing: 0.15rem;
+  padding: 14px 0 14px 0;
+  text-transform: uppercase;
+}
+
 .main-card {
   display: grid;
   place-items: center;
@@ -95,22 +108,6 @@ input:checked + label {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
-}
-
-.submit-btn-wrapper {
-  grid-column: 1/-1;
-}
-
-.submit-btn {
-  background-color: hsl(25deg, 97%, 53%);
-  border-radius: 30px;
-  border: none;
-  color: hsl(0deg, 0%, 100%);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.15rem;
-  padding: 14px 0 14px 0;
-  text-transform: uppercase;
 }
 
 .submit-btn:hover {

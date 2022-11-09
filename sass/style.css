@@ -103,15 +103,14 @@ input:checked + label {
 
 .submit-btn {
   background-color: hsl(25deg, 97%, 53%);
-  width: 100%;
   border-radius: 30px;
-  color: hsl(0deg, 0%, 100%);
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: 0.15rem;
-  font-weight: 700;
-  padding: 14px 0 14px 0;
   border: none;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  padding: 14px 0 14px 0;
+  text-transform: uppercase;
 }
 
 .submit-btn:hover {

@@ -60,18 +60,9 @@ input:checked + label {
   color: $white;
 }
 
-input[type="submit"] {
-  background-color: $orange;
-  border-radius: 30px;
-  border: none;
-  color: $white;
-  font-size: 1rem;
-  font-weight: 700;
-  grid-column: 1/-1;
-  letter-spacing: 0.15rem;
-  padding: 14px 0 14px 0;
-  text-transform: uppercase;
-}
+// input[type="submit"] {
+
+// }
 
 .main-card {
   @include grid-centre;
@@ -125,9 +116,18 @@ input[type="submit"] {
 // .submit-btn-wrapper {
 // }
 
-// .submit-btn {
-
-// }
+.submit-btn {
+  background-color: $orange;
+  border-radius: 30px;
+  border: none;
+  color: $white;
+  font-size: 1rem;
+  font-weight: 700;
+  grid-column: 1/-1;
+  letter-spacing: 0.15rem;
+  padding: 14px 0 14px 0;
+  text-transform: uppercase;
+}
 
 .submit-btn:hover {
   background: $white;

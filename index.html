@@ -8,12 +8,12 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/RatingCard/images/favicon-32x32.png"
+      href="/ratingcard/images/favicon-32x32.png"
     />
 
     <title>Interactive rating component | MaltaWebDev</title>
 
-    <link rel="stylesheet" href="/RatingCard/sass/style.css" />
+    <link rel="stylesheet" href="/ratingcard/sass/style.css" />
   </head>
 
   <body>
@@ -22,7 +22,7 @@
         <div class="rating-state-card">
           <div class="rating-star">
             <img
-              src="/RatingCard/images/icon-star.svg"
+              src="/ratingcard/images/icon-star.svg"
               alt="small orange star icon"
               class="rating-star-icon"
             />
@@ -35,20 +35,48 @@
 
           <div>
             <form class="rating-form" action="result.html" method="GET">
-              <input type="radio" name="rating" id="1" value="1" />
-              <label for="1">1</label>
-
-              <input type="radio" name="rating" id="2" value="2" />
-              <label for="2">2</label>
-
-              <input type="radio" name="rating" id="3" value="3" />
-              <label for="3">3</label>
-
-              <input type="radio" name="rating" id="4" value="4" />
-              <label for="4">4</label>
-
-              <input type="radio" name="rating" id="5" value="5" />
-              <label for="5">5</label>
+              <fieldset class="fieldset" required aria-labelledby="rating">
+                <input
+                  class="sr-only"
+                  type="radio"
+                  name="rating"
+                  id="1"
+                  value="1"
+                />
+                <label for="1">1</label>
+                <input
+                  class="sr-only"
+                  type="radio"
+                  name="rating"
+                  id="2"
+                  value="2"
+                />
+                <label for="2">2</label>
+                <input
+                  class="sr-only"
+                  type="radio"
+                  name="rating"
+                  id="3"
+                  value="3"
+                />
+                <label for="3">3</label>
+                <input
+                  class="sr-only"
+                  type="radio"
+                  name="rating"
+                  id="4"
+                  value="4"
+                />
+                <label for="4">4</label>
+                <input
+                  class="sr-only"
+                  type="radio"
+                  name="rating"
+                  id="5"
+                  value="5"
+                />
+                <label for="5">5</label>
+              </fieldset>
 
               <div class="wrapper">
                 <button class="submit-btn" type="submit">SUBMIT</button>

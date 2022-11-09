@@ -14,14 +14,6 @@
       sizes="32x32"
       href="/RatingCard/images/favicon-32x32.png"
     />
-    <script defer>
-      const score = document.querySelector(".score");
-      const urlParams = new URLSearchParams(window.location.search);
-      const rating = urlParams.get("rating");
-      console.log(urlParams);
-      console.log(rating);
-      score.textContent = rating;
-    </script>
   </head>
 
   <body>
@@ -58,5 +50,13 @@
         >. Coded by <a href="https://github.com/MaltaWebDev">MaltaWebDev</a>.
       </div>
     </main>
+    <script>
+      const score = document.querySelector(".score");
+      const urlParams = new URLSearchParams(window.location.search);
+      const rating = urlParams.get("rating");
+      console.log(urlParams);
+      console.log(rating);
+      score.textContent = rating;
+    </script>
   </body>
 </html>

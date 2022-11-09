@@ -113,8 +113,11 @@ input:checked + label {
   justify-items: center;
 }
 
-// .submit-btn-wrapper {
-// }
+.wrapper {
+  display: grid;
+  grid-column: 1 / 6;
+  width: 100%;
+}
 
 .submit-btn {
   background-color: $orange;
@@ -123,7 +126,6 @@ input:checked + label {
   color: $white;
   font-size: 1rem;
   font-weight: 700;
-  grid-column: 1/-1;
   letter-spacing: 0.15rem;
   padding: 14px 0 14px 0;
   text-transform: uppercase;

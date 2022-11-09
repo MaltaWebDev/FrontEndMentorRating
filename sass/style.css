@@ -97,6 +97,12 @@ input:checked + label {
   justify-items: center;
 }
 
+.wrapper {
+  display: grid;
+  grid-column: 1/6;
+  width: 100%;
+}
+
 .submit-btn {
   background-color: hsl(25deg, 97%, 53%);
   border-radius: 30px;
@@ -104,7 +110,6 @@ input:checked + label {
   color: hsl(0deg, 0%, 100%);
   font-size: 1rem;
   font-weight: 700;
-  grid-column: 1/-1;
   letter-spacing: 0.15rem;
   padding: 14px 0 14px 0;
   text-transform: uppercase;

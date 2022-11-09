@@ -22,9 +22,11 @@ Users can:
 
 - Semantic HTML5 form with 5x radio buttons.
 - Form fires a GET request and dispalys results.html on submit.
-- CSS preprocessed with SASS.
-- Flexbox and Grid.
-- Small amount of JS on result page to read and display rating.
+- CSS preprocessed with SASS mixins and variables.
+- Flexbox and Grid to center and space elements.
+- Small amount of JS on result page to read and display rating from URL.
+- Uses .sr-only utility class to ensure buttons are accessably hidden.
+- Form will not fire if none of the inputs are selected.
 
 ### Screenshots
 

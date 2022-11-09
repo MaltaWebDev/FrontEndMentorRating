@@ -6,12 +6,12 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 Users can:
 
-- View the optimal layout for the app depending on their device's screen size.
-- See hover and focus states for the five rating score buttons.
-- View hover state for the main submit button.
-- Select and submit a number rating.
-- See the "Thank you" card state after submitting a rating.
-- See the correct score displayed in the "Thank you" card state.
+- View the optimal layout for the app depending on their device's screen size. ✅
+- See hover and focus states for the five rating score buttons. ✅
+- View hover state for the main submit button. ✅
+- Select and submit a number rating. ✅
+- See the "Thank you" card state after submitting a rating. ✅
+- See the correct score displayed in the "Thank you" card state. ✅
 
 ### Links
 

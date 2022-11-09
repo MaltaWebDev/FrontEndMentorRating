@@ -18,7 +18,7 @@ input[type=radio] {
   height: 50px;
   width: 50px;
   cursor: pointer;
-  display: none;
+  appearance: none;
 }
 
 input + label {
@@ -87,10 +87,25 @@ input:checked + label {
   line-height: 1.5rem;
 }
 
-.rating-form {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+.fieldset {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .wrapper {

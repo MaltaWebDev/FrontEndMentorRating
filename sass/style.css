@@ -98,8 +98,7 @@ input:checked + label {
 }
 
 .submit-btn-wrapper {
-  display: grid;
-  grid-column: 1/6;
+  grid-column: 1/-1;
 }
 
 .submit-btn {

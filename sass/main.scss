@@ -120,6 +120,8 @@ input:checked + label {
   font-weight: 700;
   padding: 14px 0 14px 0;
   border: none;
+  display: flex;
+  grid-column: 1 / -1;
 }
 
 .submit-btn:hover {

@@ -14,42 +14,7 @@
       sizes="32x32"
       href="/RatingCard/images/favicon-32x32.png"
     />
-  </head>
-
-  <body id="main" class="main-card main-card-thank-you">
-    <section class="thank-you-container">
-      <div class="thank-you-state-card">
-        <div class="thank-you-image">
-          <img
-            src="/RatingCard/images/illustration-thank-you.svg"
-            alt="thank you image"
-          />
-        </div>
-
-        <div class="rating-score">
-          <p>You selected <span class="score"></span> out of 5</p>
-        </div>
-
-        <div class="thank-you-title">
-          <h1>Thank you!</h1>
-        </div>
-
-        <div class="thank-you-text">
-          <p>
-            We appreciate you taking the time to give a rating.<br />If you ever
-            need more support, don’t hesitate to get in touch!
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/MaltaWebDev">MaltaWebDev</a>.
-    </div>
-    <script>
+    <script defer>
       const score = document.querySelector(".score");
       const urlParams = new URLSearchParams(window.location.search);
       const rating = urlParams.get("rating");
@@ -57,5 +22,41 @@
       console.log(rating);
       score.textContent = rating;
     </script>
+  </head>
+
+  <body>
+    <main id="main">
+      <section class="main-card">
+        <div class="thank-you-container">
+          <div class="thank-you-state-card">
+            <div class="thank-you-image">
+              <img
+                src="/RatingCard/images/illustration-thank-you.svg"
+                alt="thank you image"
+              />
+            </div>
+            <div class="rating-score">
+              <p>You selected <span class="score"></span> out of 5</p>
+            </div>
+            <div class="thank-you-title">
+              <h1>Thank you!</h1>
+            </div>
+            <div class="thank-you-text">
+              <p>
+                We appreciate you taking the time to give a rating.<br />If you
+                ever need more support, don’t hesitate to get in touch!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/MaltaWebDev">MaltaWebDev</a>.
+      </div>
+    </main>
   </body>
 </html>
